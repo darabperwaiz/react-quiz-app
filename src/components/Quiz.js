@@ -3,19 +3,54 @@ import React, { useState, useEffect } from 'react';
 const Quiz = ({ onComplete, showResultsOnly }) => {
   const questions = [
     {
-      question: "What is the capital of France?",
-      options: ["Berlin", "Madrid", "Paris", "Lisbon"],
-      answer: "Paris"
+      "question": "What is the capital of France?",
+      "options": ["Berlin", "Madrid", "Paris", "Lisbon"],
+      "answer": "Paris"
     },
     {
-      question: "Who is the CEO of Tesla?",
-      options: ["Jeff Bezos", "Elon Musk", "Bill Gates", "Tony Stark"],
-      answer: "Elon Musk"
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "answer": "Mars"
     },
     {
-      question: "What is the smallest prime number?",
-      options: ["1", "2", "3", "4"],
-      answer: "2"
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "options": ["Harper Lee", "Mark Twain", "Ernest Hemingway", "F. Scott Fitzgerald"],
+      "answer": "Harper Lee"
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Southern Ocean", "Pacific Ocean"],
+      "answer": "Pacific Ocean"
+    },
+    {
+      "question": "What is the smallest prime number?",
+      "options": ["1", "2", "3", "5"],
+      "answer": "2"
+    },
+    {
+      "question": "Which element has the chemical symbol 'O'?",
+      "options": ["Oxygen", "Gold", "Osmium", "Oganesson"],
+      "answer": "Oxygen"
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "options": ["Earth", "Jupiter", "Mars", "Saturn"],
+      "answer": "Jupiter"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "question": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Iron", "Diamond", "Platinum"],
+      "answer": "Diamond"
+    },
+    {
+      "question": "Who is known as the father of computers?",
+      "options": ["Alan Turing", "Charles Babbage", "John von Neumann", "Isaac Newton"],
+      "answer": "Charles Babbage"
     }
   ];
 
